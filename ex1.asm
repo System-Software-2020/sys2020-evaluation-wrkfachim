@@ -26,7 +26,7 @@ main:
         push p1
         push 1
         call write
-        add esp, 8
+        add esp, 12
         mov eax, 0              
         mov esp, ebp            
         pop ebp
